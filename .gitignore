@@ -1,0 +1,48 @@
+# === Entornos Virtuales ===
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Caché de Python / Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Archivos de Configuración de IDEs y Editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Archivos Generados por Sistema Operativo ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# === Registro y Cobertura de Pruebas ===
+*.log
+.coverage
+.pytest_cache/
+htmlcov/
+
+# === Compilaciones / Distribución ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
